@@ -1,0 +1,788 @@
+// Variable overrides
+//----------------------material ui-----------------
+a:hover {
+    text-decoration: none !important;
+}
+
+.app-header .dropdown-item {
+    min-width: 0 !important;
+}
+
+.MuiAvatar-root {
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.smallCheck {
+    font-size: 12px !important;
+    color: #333 !important;
+    margin-left: -5px !important;
+}
+
+.error_input {
+    float: right;
+    font-size: 12px;
+    margin-top: -45px;
+    margin-right: 10px;
+    color: red;
+}
+
+.error_input_sm {
+    float: right;
+    font-size: 12px;
+    margin-top: -25px;
+    margin-right: 10px;
+    color: red;
+}
+//----------------------header-----------------------
+.header-fixed .app-header {
+    // background-color: #ffffff !important;
+    background-image:
+        linear-gradient(
+        to bottom left, 
+        #f5fbff, #ffffff
+        ) !important;
+}
+
+.app-header .navbar-toggler-icon {
+    // background-image: url('/assets/img/toggle.png') !important;
+    margin-top: 3px !important;
+}
+
+.img-avatar{
+    margin: 0 15px !important;
+}
+
+.name-bar{
+    text-transform: capitalize !important;
+}
+//----------------------sidebar----------------------
+$navbar-brand-width: 165px !default;
+$sidebar-width: 270px !default;
+
+.sidebar .sidebar-minimizer {
+    flex: 0 0 30px !important;
+    background-color: rgb(204, 204, 204) !important;
+}
+
+.sidebar .sidebar-minimizer::before {
+    height: 33px !important;
+    background-size: 16px !important;
+    background-image: url('/assets/img/left_arrow.png') !important;
+}
+
+.sidebar-minimized .sidebar .nav-link {
+    background-color: #FFF;
+    border-left: 1px solid #C8CED3 !important;
+}
+
+.sidebar-minimized .sidebar .sidebar-minimizer {
+    height: 30px !important;
+}
+
+.scrollbar-container {
+    background-color: #fff !important;
+}
+
+.sidebar .nav-dropdown.open {
+    background-color: inherit !important;
+}
+
+.sidebar .nav-dropdown.open .nav-link {
+    color: #333 !important;
+}
+
+.sidebar .nav-link {
+    font-size: 12px !important;
+    padding: 0.5rem 1rem !important;
+    color: #333 !important;
+}
+
+.sidebar .nav-link.active{
+    background-color: #00CC66 !important;
+    text-shadow: none !important;
+}
+
+.sidebar .nav-link:hover{
+    background-color: #d4f3e3 !important;
+}
+
+.sidebar-minimized .sidebar .nav-item .nav-link{
+    padding: 8px 0 !important;
+}
+
+.sidebar-minimized .sidebar .nav-dropdown-toggle {
+    padding: 8px 0 !important;
+}
+
+.sidebar .nav-link .nav-icon {
+    color: #333 !important;
+}
+
+.sidebar .nav-title {
+    color: #333 !important;
+}
+//-----------------------footer-----------------------
+.app-footer {
+    flex: 0 0 30px !important;
+    margin-top: -25px;
+    z-index: 99;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    top: -2px !important;
+}
+//-----------------------content----------------------
+legend {
+    width: auto !important;
+}
+
+.breadcrumb {
+    border-bottom: none !important;
+    position: fixed !important;
+    z-index: 999 !important;
+    width: 100% !important;
+    margin-bottom: 15px !important;
+    background-color: #0088cc !important;
+    // background-image:
+    //     linear-gradient(
+    //     to top, 
+    //     #2274A5, #96c3dd
+    //     ) !important;
+    padding: 6.5px 1rem !important;
+    font-size: 0.875rem !important;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+    color: #fff !important;
+}
+
+.breadcrumb .breadcrumb-item a, .breadcrumb .breadcrumb-item.active {
+    color: #fff !important;
+    text-shadow: none !important;
+}
+
+.main .container-fluid {
+    padding: 0 !important;
+}
+
+.textCpr{
+    font-size: 12px !important;
+    color: #333 !important;
+}
+
+.card-body-nopad {
+    padding: 0 !important;
+}
+
+.card-body-pad7 {
+    padding: 7px !important;  
+}
+
+.buttonTable {
+    margin-left: 15px !important;
+    float: left !important;
+}
+
+.buttonTable .btn-brand {
+    margin-right: 5px;
+}
+
+button:focus {outline:none !important;}
+
+.clear-both {
+    clear: both !important;
+}
+
+.card {
+    border-radius: 0 !important;
+    border:none !important;
+}
+
+.card-header-filter {
+    padding: 4px 20px !important;
+}
+
+.scroll {
+    width: 100%;
+    height: 430px;
+    display: flex;
+    overflow-x: auto;
+}
+
+.scroll-title {
+    // padding: 20px !important;
+    font-weight: 700;
+}
+  
+.scroll-item {
+    width: 1200px;
+    flex-shrink: 0;
+    margin: 0;
+}
+
+.custable{
+    border: 1px solid #c8ced3;
+}
+
+.custable th, .custable td{
+    border: 1px solid #c8ced3;
+    width: 45px;
+}
+
+.col-hidden { 
+    display: none !important;
+}
+
+.mr5px {
+    margin-right: 5px !important;
+}
+
+.mt10px {
+    margin-top: 10px !important;
+}
+
+.filterPage{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+table caption {
+    padding-top: 0 !important;
+    caption-side: top !important;
+}
+
+.table th, .table td {
+    padding: 4px 10px 4px 10px !important;
+    // font-size: 0.875rem !important;
+    font-weight: 400 !important;
+}
+
+.table td .form-control {
+    padding: 0px 5px !important;
+    font-size: 12px !important;
+    line-height: 12px !important;
+    height: auto !important;
+    border: none !important;
+}
+
+.react-bs-table-bordered {
+    border-radius: 0 !important;
+}
+
+// .react-bs-table-container {
+//     margin-top: 15px !important;
+// }
+
+.react-bs-table-tool-bar {
+    margin-bottom: 15px !important;
+}
+
+td .btn {
+    padding: 2px 7px !important;
+    font-size: 12px !important;
+    line-height: 1rem !important;
+}
+
+td .btn i {
+    font-size: 12px !important;
+    margin: -5px !important;
+    line-height: 1rem !important;
+}
+
+.react-bs-table-container .react-bs-table-search-form .input-group-btn .react-bs-table-search-clear-btn{
+    padding: 4px !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    font-size: 12px !important;
+}
+
+.react-bs-table-container .react-bs-table-search-form .form-control{
+    outline: none !important;
+    box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
+}
+
+.react-bs-table-container .react-bs-table-search-form .input-group-btn .react-bs-table-search-clear-btn:focus{
+    outline: none !important;
+    box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
+}
+
+.react-bs-table-csv-btn {
+    margin-left: 15px !important;
+}
+
+.react-bs-table-sizePerPage-dropdown .btn {
+    margin-left: 15px !important;
+    font-size: 12px !important;
+    padding: 4px 10px !important;
+    background-color: #fcfcfc !important;
+    float: left !important;
+    margin-bottom: 15px !important;
+}
+
+.react-bootstrap-table-page-btns-ul {
+    margin-right: 15px !important;
+}
+
+.react-bootstrap-table-page-btns-ul .page-link {
+    padding: 4px 10px !important;
+    font-size: 12px !important;
+}
+
+.react-bootstrap-table-page-btns-ul .page-link:focus {
+    outline: none !important;
+    box-shadow: 0 0 0 0 rgba(0, 123, 255, 0) !important;
+}
+
+.pagTextTotal {
+    float: right !important;
+    font-size: 12px !important;
+}
+
+.imgTable {
+    width: 20px !important;
+    height: 20px !important;
+    border-radius: 50% !important;
+    cursor: pointer !important;
+    border: 1px solid #9acd32 !important;
+}
+
+.imgModal {
+    width: 265px !important;
+    height: 265px !important;
+}
+
+.spliter {
+    height: 430px !important;
+    margin-top: 50px !important;
+}
+
+.pointer {
+    cursor: pointer !important;
+}
+//----------------font------------------
+.fc555 {
+    color: #555 !important;
+}
+
+.fs22 {
+    font-size: 22px !important;
+}
+
+.fs12 {
+    font-size: 12px !important;
+}
+
+//---------------form-------------------
+.comForm {
+    width: 100% !important;
+}
+
+.comForm .MuiFormControl-root {
+    width: 100% !important;
+    margin-top: 10px !important;
+}
+
+.comForm .MuiInputLabel-root {
+    font-size: 14px !important;
+}
+
+.comForm .wdInput {
+    width: 100% !important;
+    font-size: 12px !important;
+}
+
+.comForm .MuiFormControlLabel-labelPlacementStart {
+    margin: 25px 0 0 !important;
+    color: #7e7e7e !important;
+}
+
+.comForm .PrivateSwitchBase-root-72  {
+    padding: 0 9px !important;
+}
+
+.btnFormSubmit {
+    width: 100% !important;
+    margin-top: 30px !important;
+    font-size: 12px !important;
+    line-height: 30px !important;
+}
+
+.btnFormSubmit i {
+    margin-top: 2px !important;
+    margin-right: 3px !important;
+}
+
+//---------------sweetalert2------------
+.swal2-popup .swal2-styled.swal2-confirm {
+    font-size: 12px !important;
+    color: #fcfcfc !important;
+    font-weight: normal !important;
+}
+
+.swal2-styled.swal2-cancel {
+    font-size: 12px !important;
+    color: #fcfcfc !important;
+    font-weight: normal !important;
+}
+
+.iconlist {
+    margin-bottom: 10px;
+    color: #333 !important;
+}
+
+.MuiExpansionPanelSummary-root {
+    background-color: #F0F3F5 !important;
+    border-bottom: 1px solid #C8CED3 !important;
+}
+
+.MuiExpansionPanelSummary-root.Mui-expanded {
+    min-height: 48px !important;
+}
+
+.MuiExpansionPanelSummary-content.Mui-expanded {
+    margin: 0 !important;
+}
+
+.expTitle{
+    font-weight: 600;
+}
+
+.expBody{
+    font-size: 12px;
+}
+
+.iclear {
+    position: absolute;
+    right: 20px;
+    color: #000;
+    cursor: pointer;
+}
+
+.btnCardMenu {
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
+    width: 100% !important;
+    height: 120px !important;
+    background-image:
+        linear-gradient(
+        to top right, 
+        #6991c7, #a3bded
+        );
+    color: #fff !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+}
+
+.btnCardMenuRed {
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
+    width: 100% !important;
+    height: 120px !important;
+    background-image:
+        linear-gradient(
+        to top right, 
+        #c76969, #eda3af
+        );
+    color: #fff !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+}
+
+
+.btnCardMenuGreen {
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
+    width: 100% !important;
+    height: 120px !important;
+    background-image:
+        linear-gradient(
+        to top right, 
+        #69c793, #a3edad
+        );
+    color: #fff !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+}
+
+.btnCardMenuYellow {
+    margin-top: 0px !important;
+    margin-bottom: 10px !important;
+    width: 100% !important;
+    height: 120px !important;
+    background-image:
+        linear-gradient(
+        to top right, 
+        #c7c169, #edeca3
+        );
+    color: #fff !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+}
+
+.btnCardMenu:hover, .btnCardMenu:focus {
+    background-color: #d0eeff !important;
+}
+
+.btnCardMenu i, .btnCardMenuRed i, .btnCardMenuGreen i, .btnCardMenuYellow i {
+    color: #fff !important;
+    font-size: 42px !important;
+    width: 100% !important;
+    line-height: 60px !important;
+    margin-left: 2px !important;
+}
+
+.btnEmpty, .btnEmpty:hover, .btnEmpty:focus {
+    color: #333 !important;
+    background-image:
+        linear-gradient(
+        to top right, 
+        #e2ebf0, #cfd9df 
+        );
+}
+
+.btnEmpty i {
+    color: #333 !important;
+}
+
+.btnCardMenu > div {
+    width: 100%;
+}
+
+.imgButton{
+    border-radius: 90px;
+    width: 70px;
+    height: 70px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+
+.selectSend{
+    width: calc(100% - 42px);
+}
+
+.btn:focus {
+    box-shadow: none !important;
+}
+
+.btnSend{
+    height: 35px;
+    width: 42px;
+    background-color: #fff !important;
+    position: absolute;
+    right: 15px;
+    margin-top: -35px;
+}
+
+.react-bootstrap-table table {
+    table-layout: auto;
+}
+
+.labelForm{
+    line-height: 35px;
+}
+
+.labelHeader{
+    width: 100%;
+    text-align: center;
+    line-height: 35px;
+}
+
+.labelHeaderRight{
+    line-height: 35px;
+    width: 100%;
+    text-align: right;
+}
+
+.titleFilter{
+    font-weight: 600;
+    margin: 0 0 10px 0;
+}
+
+.btnFilter {
+    font-size: 12px !important;
+    height: 35px;
+    width: 100%;
+    padding: 0px !important;
+}
+
+.btnFilter:nth-child(1){
+    margin-right: 10px;
+}
+
+.btn-add {
+    font-size: 12px !important;
+    z-index: 998;
+    position: absolute;
+    right: 0;
+    height: 35px;
+    color: white !important;
+    padding: 0px 7px !important;
+    margin-right: 15px;
+}
+
+.btnFilter > i, .btn-add > i {
+    font-size: 12px;
+    margin-top: 2px !important;
+}
+
+.app-body .main {
+    font-size: 12px !important;
+    background-color: white;
+    border-left: 1px solid #c8ced3;
+}
+
+.pagination {
+    justify-content: flex-end;
+}
+
+.search-label {
+    width: 50%;
+}
+
+.btn-clear {
+    border: 1px solid #555 !important;
+    margin-top: -2px !important;
+}
+
+.imgBg {
+    width: 100%;
+    height: 100%;
+}
+
+.MuiAppBar-colorPrimary {
+    background-color: white !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    border-top: 1px solid #c8ced3 !important;
+    border-bottom: 1px solid #c8ced3 !important;
+}
+
+.MuiTabs-root {
+    min-height: 21px !important;
+}
+
+.MuiTab-root {
+    text-transform: none !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    font-size: 0.875rem !important;
+    font-weight: 400 !important;
+    letter-spacing: normal !important;
+    border-right: 1px solid #c8ced3 !important;
+    border-top-right-radius: 0px !important;
+    border-top-left-radius: 0px !important;
+    min-height: 21px !important;
+    line-height: 21px !important;
+}
+
+.Mui-selected {
+    background-color: #D9EAFF !important;
+    font-weight: 600 !important;
+}
+
+.namaLaporan{
+    text-align: center;
+    line-height: 34px;
+    border-bottom: 1px solid #c8ced3 !important;
+    font-weight: 600;
+}
+
+.isiLaporan{
+    padding: 0 15px;
+    line-height: 34px;
+}
+
+.isiLaporan:nth-child(odd){
+    background-color: #EBF3FF;
+}
+
+.prcDot{
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.carousel__dot {
+    background-color: rgb(255, 249, 161);
+    border: 1px solid #c8ced3;
+    border-radius: 7px;
+    height: 13px;
+    margin: 2px;
+    width: 10px;
+}
+
+.carousel__dot--selected {
+    background-color: rgb(39, 39, 39);
+}
+
+.css-yk16xz-control, .css-yk16xz-control:active, .css-yk16xz-control:focus {
+    height: 35px !important;
+    min-height: 35px !important;
+}
+
+.css-g1d714-ValueContainer{
+    margin-top: -2px !important
+}
+
+.css-1pahdxg-control{
+    height: 35px !important;
+    min-height: 35px !important;
+    border-color: hsl(0,0%,80%) !important;
+    box-shadow: none !important;
+}
+
+.css-2613qy-menu{
+    margin-top:-10px !important;
+}
+
+.cardStep{
+    height: calc(100vh - 115px) !important;
+    margin-bottom: 0 !important;
+    overflow: auto !important;
+}
+
+.rsw_2f{ display: none; } 
+
+.rsw_3G{ display: block;}
+
+.form-check-input {
+    margin-top: 0.2rem !important;
+}
+
+textarea:focus, 
+textarea.form-control:focus, 
+input.form-control:focus, 
+input[type=text]:focus, 
+input[type=password]:focus, 
+input[type=email]:focus, 
+input[type=number]:focus, 
+[type=text].form-control:focus, 
+[type=password].form-control:focus, 
+[type=email].form-control:focus, 
+[type=tel].form-control:focus, 
+[contenteditable].form-control:focus {
+  box-shadow: none;
+}
+
+.react-bootstrap-table table {
+  table-layout: auto;
+}
+
+.modal-dialog {
+    margin: 0 !important;
+    max-width: 100% !important;
+}
+
+.modal-content {
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+
+.css-f0arjc-control {
+    box-shadow: none !important;
+}
+
+.css-1fhf3k1-control {
+    min-height: 35px !important;
+    height: 35px !important;
+}
